@@ -2,7 +2,7 @@
 ##### Author : Nilesh Devdas 
 ##### Organization : Vinsys IT Service (I) Pvt. Ltd.
 
-#### Version 3.x for 2023
+#### Version 3.x for 2024
 
 ### Contents : 
 *   [COURSE OUTLINE](/1_courseoutline/readme.md) 
