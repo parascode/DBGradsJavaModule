@@ -1,30 +1,24 @@
-import React from 'react';
-import './App.css';
-// or less ideally
-import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import React from "react";
+import { Link, Route, Routes } from "react-router-dom";
+import { Home } from "./UI/home/home";
+import { Search } from "./UI/search/search";
 
 function AirportNavbar() {
-    return (
-        <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand href="#home">Our Airports</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">World</Nav.Link>
-                        <Nav.Link href="#link">Airports</Nav.Link>
-                        <Nav.Link href="#link">Comments</Nav.Link>
-                        <Nav.Link href="#link">Downloads</Nav.Link>
-                        <NavDropdown title="SiteInfo" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Contact</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Help</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-    );
+  return (
+    <div>
+      <div>
+        <Link to="">Home</Link>
+        <Link to="search">Search Airport</Link>
+      </div>
+      <div>
+  
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="search" element={<Search></Search>}></Route>
+        </Routes>
+      </div>
+    </div>
+  );
 }
 
 export default AirportNavbar;
