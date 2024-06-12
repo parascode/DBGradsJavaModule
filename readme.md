@@ -1,5 +1,5 @@
 ### DB Grads 2024 
-##### Organization : Vinsys IT Service (I) Pvt. Ltd.
+##### Organization : Vinsys IT Service (I) Ltd.
 
 #### Version 1.x for 2024
 
