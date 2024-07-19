@@ -18,16 +18,15 @@ import com.airportapp.repository.IAirportRepository;
 public class AirportRestController {
 	private Logger logger = LoggerFactory.getLogger(AirportRestController.class);
 
-	@Autowired
-	private IAirportRepository airportRepo;
+	
+	//todo
+	//Add IAirportService dependency
 
 	@CrossOrigin(origins = "http://localhost:8080")
 	@GetMapping(path = "/airports/bytype/{type}")
 	public  AirportsReponse findAirportsByType(@PathVariable("type") String type) {
-		logger.info("Entered findAirportsByType");
-		if (type == null)
-			throw new IllegalArgumentException();
-		return new AirportsReponse(airportRepo.findAirportsByType(type).stream()
-				.map(TransformerFunctions::airportEntityToVO).collect(Collectors.toList()));
+	//todo
+	//Invoke appropriate methods on IAirportService
+	
 	}
 }

@@ -10,10 +10,13 @@ public interface IAirportRepository extends JpaRepository<AirportEntity, Long> {
 
 	List<AirportEntity> findAirportsByType(String type);
 
-	List<AirportEntity> findAirportsByAirportName(String name);
+	//todo --> declare method find Airports by name
+	
+	//todo --> declare method find Airports by latitude
+	
 
-	List<AirportEntity> findAirportsByLatitude(double type);
-
-	List<AirportEntity> findAirportsByLongitude(double type);
+	//todo --> declare method find Airports by longitude
+	
+	
 
 }
