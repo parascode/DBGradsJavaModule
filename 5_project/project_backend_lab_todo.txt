@@ -2,19 +2,26 @@ Lab Exercise : TODO
 
 1) AirportRepository 	(/airportapps/src/main/java/com/airportapp/repository/IAirportRepository.java)
 ---> declare method to find Airports by name
----> declare method to  find Airports by name
 ---> declare method find Airports by latitude
 ---> declare method find Airports by longitude
 
 
 
-1)Provide implementation of  IAirportService (/airportapps/src/main/java/com/airport/services/IAirportService.java)
+2)Provide implementation of  IAirportService (/airportapps/src/main/java/com/airport/services/IAirportService.java)
 
-2) AirportRestController  --> Add IAirportService Dependency
-3) --->findAirportsByType() --> Invoke appropriate methods from IAirportService  
+3) AirportRestController  --> Add IAirportService Dependency
+
+4) --->findAirportsByType() --> Invoke appropriate methods from IAirportService  
+
+5) Create ServiceLayer for following Repository Classes :
+-ICountryRepository
+-INavAidRepository
+-IRegionRepository
+-UserInfoRepository
 
 
-==============Setup================================================
+
+=======================Setup==============================
 Oracle DB :
 alter session set "_ORACLE_SCRIPT"=true;
 
