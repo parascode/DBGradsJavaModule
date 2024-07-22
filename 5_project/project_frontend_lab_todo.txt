@@ -1,6 +1,15 @@
 
-1) Create Components to call below REST Endpoint :
+1) Create Components to call below REST Endpoint (Please refer Java Backend Project) :
+
+AirportEntity
+-Long id
+-String airportName
+-double latitude;
+-double longitude;
+-String countryName;
+-String regionName;
 
 ---> Find Airports by name - http://localhost:8080/airports/bytype/{type}
 ---> Find Airports by latitude - http://localhost:8080/airports/bylat/{lat}
 ---> Find Airports by longitude - http://localhost:8080/airports/bylon/{lon}
+
