@@ -10,8 +10,8 @@
 *   [React](/3_design_ui/react/readme/readme.md) 
 *   [React Tutorial](/3_design_ui/react/fullreact_tutorial/01_Day_JavaScript_Refresher/01_javascript_refresher.md) 
 *   [Java](/4_java_tdd)
-*   [Project Frontend](/5_project/project_frontend/README.md)
-*   [Project Backend](/5_project/project_backend/readme.md)
+*   [Project Frontend](/5_project/project_frontend_lab/README.md)
+*   [Project Backend](/5_project/project_backend_lab/readme.md)
  
 ### Extra Packs : 
 
