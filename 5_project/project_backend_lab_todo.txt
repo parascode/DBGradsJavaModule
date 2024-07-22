@@ -19,33 +19,37 @@ Lab Exercise : TODO
 -IRegionRepository
 -UserInfoRepository
 
-
-
 =======================Setup==============================
 Oracle DB :
-alter session set "_ORACLE_SCRIPT"=true;
 
-CREATE USER scott IDENTIFIED BY tiger;
-GRANT CONNECT TO scott;
-GRANT CONNECT, RESOURCE TO scott;
-GRANT CREATE SESSION  TO scott;
+=========================================================
+c:\>sqlplus
+username: System
+password: oracle
 
-GRANT UNLIMITED TABLESPACE TO scott;
+SQL>alter session set "_ORACLE_SCRIPT"=true;
 
-SELECT * FROM all_users where username='scott';
+SQL>CREATE USER scott IDENTIFIED BY tiger;
+SQL>GRANT CONNECT TO scott;
+SQL>GRANT CONNECT, RESOURCE TO scott;
+SQL>GRANT CREATE SESSION  TO scott;
 
-select * from user_tables;
+SQL>GRANT UNLIMITED TABLESPACE TO scott;
 
+SQL>SELECT * FROM all_users where username='scott';
 
-================================================
+SQL>select * from user_tables;
+======================================================
 
-insert into user_info(name,password,email,roles) 
+SQL>insert into user_info(name,password,email,roles) 
 values('student','$2a$12$QQag2gV/aKxYJKqodAZah.ufM3DrYN8ephrgu57L8DV3tL4ru08c2','student@msn.com','ROLE_USER');
 
-insert into user_info(name,password,email,roles) 
+SQL>insert into user_info(name,password,email,roles) 
 values('vinsys','$2a$12$QQag2gV/aKxYJKqodAZah.ufM3DrYN8ephrgu57L8DV3tL4ru08c2','vinsys@msn.com','ROLE_USER');
 
 ===================================================
+Open Postman --> https://www.postman.com/downloads/
+
 http://localhost:8080/auth/addNewUser
 {
 "name":"vinsys",
@@ -74,3 +78,4 @@ http://localhost:8080/auth/generateToken
 }
 
 http://localhost:8080/airports/bytype/small_airport (pass the token generated )
+
