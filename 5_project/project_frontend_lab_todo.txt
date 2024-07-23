@@ -1,6 +1,5 @@
 
 1) Create Components to call below REST Endpoint (Please refer Java Backend Project) :
-
 AirportEntity
 -Long id
 -String airportName
