@@ -1,272 +1,250 @@
-INSERT INTO countries (code,name,continent) VALUES
-	 ('AO','Angola','AF'),
-	 ('BF','Burkina Faso','AF'),
-	 ('BI','Burundi','AF'),
-	 ('BJ','Benin','AF'),
-	 ('BW','Botswana','AF'),
-	 ('CD','Congo (Kinshasa)','AF'),
-	 ('CF','Central African Republic','AF'),
-	 ('CG','Congo (Brazzaville)','AF'),
-	 ('CI','Côte d''Ivoire','AF'),
-	 ('CM','Cameroon','AF');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('CV','Cape Verde','AF'),
-	 ('DJ','Djibouti','AF'),
-	 ('DZ','Algeria','AF'),
-	 ('EG','Egypt','AF'),
-	 ('EH','Western Sahara','AF'),
-	 ('ER','Eritrea','AF'),
-	 ('ET','Ethiopia','AF'),
-	 ('GA','Gabon','AF'),
-	 ('GH','Ghana','AF'),
-	 ('GM','Gambia','AF');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('GN','Guinea','AF'),
-	 ('GQ','Equatorial Guinea','AF'),
-	 ('GW','Guinea-Bissau','AF'),
-	 ('KE','Kenya','AF'),
-	 ('KM','Comoros','AF'),
-	 ('LR','Liberia','AF'),
-	 ('LS','Lesotho','AF'),
-	 ('LY','Libya','AF'),
-	 ('MA','Morocco','AF'),
-	 ('MG','Madagascar','AF');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('ML','Mali','AF'),
-	 ('MR','Mauritania','AF'),
-	 ('MU','Mauritius','AF'),
-	 ('MW','Malawi','AF'),
-	 ('MZ','Mozambique','AF'),
-	 ('NA','Namibia','AF'),
-	 ('NE','Niger','AF'),
-	 ('NG','Nigeria','AF'),
-	 ('RE','Réunion','AF'),
-	 ('RW','Rwanda','AF');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('SC','Seychelles','AF'),
-	 ('SD','Sudan','AF'),
-	 ('SH','Saint Helena','AF'),
-	 ('SL','Sierra Leone','AF'),
-	 ('SN','Senegal','AF'),
-	 ('SO','Somalia','AF'),
-	 ('ST','São Tomé and Principe','AF'),
-	 ('SZ','Swaziland','AF'),
-	 ('TD','Chad','AF'),
-	 ('TG','Togo','AF');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('TN','Tunisia','AF'),
-	 ('TZ','Tanzania','AF'),
-	 ('UG','Uganda','AF'),
-	 ('YT','Mayotte','AF'),
-	 ('ZA','South Africa','AF'),
-	 ('ZM','Zambia','AF'),
-	 ('ZW','Zimbabwe','AF'),
-	 ('ZZ','Unknown or unassigned country','AF'),
-	 ('SS','South Sudan','AF'),
-	 ('AQ','Antarctica','AN');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('GS','South Georgia and the South Sandwich Islands','AN'),
-	 ('TF','French Southern Territories','AN'),
-	 ('AE','United Arab Emirates','AS'),
-	 ('AF','Afghanistan','AS'),
-	 ('AM','Armenia','AS'),
-	 ('AZ','Azerbaijan','AS'),
-	 ('BD','Bangladesh','AS'),
-	 ('BH','Bahrain','AS'),
-	 ('BN','Brunei','AS'),
-	 ('BT','Bhutan','AS');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('CC','Cocos (Keeling) Islands','AS'),
-	 ('CN','China','AS'),
-	 ('CX','Christmas Island','AS'),
-	 ('CY','Cyprus','AS'),
-	 ('GE','Georgia','AS'),
-	 ('HK','Hong Kong','AS'),
-	 ('ID','Indonesia','AS'),
-	 ('IL','Israel','AS'),
-	 ('IN','India','AS'),
-	 ('IO','British Indian Ocean Territory','AS');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('IQ','Iraq','AS'),
-	 ('IR','Iran','AS'),
-	 ('JO','Jordan','AS'),
-	 ('JP','Japan','AS'),
-	 ('KG','Kyrgyzstan','AS'),
-	 ('KH','Cambodia','AS'),
-	 ('KP','North Korea','AS'),
-	 ('KR','South Korea','AS'),
-	 ('KW','Kuwait','AS'),
-	 ('KZ','Kazakhstan','AS');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('LA','Laos','AS'),
-	 ('LB','Lebanon','AS'),
-	 ('LK','Sri Lanka','AS'),
-	 ('MM','Burma','AS'),
-	 ('MN','Mongolia','AS'),
-	 ('MO','Macau','AS'),
-	 ('MV','Maldives','AS'),
-	 ('MY','Malaysia','AS'),
-	 ('NP','Nepal','AS'),
-	 ('OM','Oman','AS');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('PH','Philippines','AS'),
-	 ('PK','Pakistan','AS'),
-	 ('PS','Palestinian Territory','AS'),
-	 ('QA','Qatar','AS'),
-	 ('SA','Saudi Arabia','AS'),
-	 ('SG','Singapore','AS'),
-	 ('SY','Syria','AS'),
-	 ('TH','Thailand','AS'),
-	 ('TJ','Tajikistan','AS'),
-	 ('TL','Timor-Leste','AS');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('TM','Turkmenistan','AS'),
-	 ('TR','Turkey','AS'),
-	 ('TW','Taiwan','AS'),
-	 ('UZ','Uzbekistan','AS'),
-	 ('VN','Vietnam','AS'),
-	 ('YE','Yemen','AS'),
-	 ('AD','Andorra','EU'),
-	 ('AL','Albania','EU'),
-	 ('AT','Austria','EU'),
-	 ('BA','Bosnia and Herzegovina','EU');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('BE','Belgium','EU'),
-	 ('BG','Bulgaria','EU'),
-	 ('BY','Belarus','EU'),
-	 ('CH','Switzerland','EU'),
-	 ('CZ','Czech Republic','EU'),
-	 ('DE','Germany','EU'),
-	 ('DK','Denmark','EU'),
-	 ('EE','Estonia','EU'),
-	 ('ES','Spain','EU'),
-	 ('FI','Finland','EU');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('FO','Faroe Islands','EU'),
-	 ('FR','France','EU'),
-	 ('GB','United Kingdom','EU'),
-	 ('GG','Guernsey','EU'),
-	 ('GI','Gibraltar','EU'),
-	 ('GR','Greece','EU'),
-	 ('HR','Croatia','EU'),
-	 ('HU','Hungary','EU'),
-	 ('IE','Ireland','EU'),
-	 ('IM','Isle of Man','EU');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('IS','Iceland','EU'),
-	 ('IT','Italy','EU'),
-	 ('JE','Jersey','EU'),
-	 ('LI','Liechtenstein','EU'),
-	 ('LT','Lithuania','EU'),
-	 ('LU','Luxembourg','EU'),
-	 ('LV','Latvia','EU'),
-	 ('MC','Monaco','EU'),
-	 ('MD','Moldova','EU'),
-	 ('ME','Montenegro','EU');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('MK','Macedonia','EU'),
-	 ('MT','Malta','EU'),
-	 ('NL','Netherlands','EU'),
-	 ('NO','Norway','EU'),
-	 ('PL','Poland','EU'),
-	 ('PT','Portugal','EU'),
-	 ('RO','Romania','EU'),
-	 ('RS','Serbia','EU'),
-	 ('RU','Russia','EU'),
-	 ('SE','Sweden','EU');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('SI','Slovenia','EU'),
-	 ('SK','Slovakia','EU'),
-	 ('SM','San Marino','EU'),
-	 ('UA','Ukraine','EU'),
-	 ('XK','Kosovo','EU'),
-	 ('VA','Vatican City','EU'),
-	 ('AG','Antigua and Barbuda','NA'),
-	 ('AI','Anguilla','NA'),
-	 ('BQ','Caribbean Netherlands','NA'),
-	 ('AW','Aruba','NA');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('BB','Barbados','NA'),
-	 ('BM','Bermuda','NA'),
-	 ('BS','Bahamas','NA'),
-	 ('BZ','Belize','NA'),
-	 ('CA','Canada','NA'),
-	 ('CR','Costa Rica','NA'),
-	 ('CU','Cuba','NA'),
-	 ('DM','Dominica','NA'),
-	 ('DO','Dominican Republic','NA'),
-	 ('GD','Grenada','NA');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('GL','Greenland','NA'),
-	 ('GP','Guadeloupe','NA'),
-	 ('GT','Guatemala','NA'),
-	 ('HN','Honduras','NA'),
-	 ('HT','Haiti','NA'),
-	 ('JM','Jamaica','NA'),
-	 ('KN','Saint Kitts and Nevis','NA'),
-	 ('KY','Cayman Islands','NA'),
-	 ('LC','Saint Lucia','NA'),
-	 ('MQ','Martinique','NA');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('MS','Montserrat','NA'),
-	 ('MX','Mexico','NA'),
-	 ('NI','Nicaragua','NA'),
-	 ('PA','Panama','NA'),
-	 ('PM','Saint Pierre and Miquelon','NA'),
-	 ('PR','Puerto Rico','NA'),
-	 ('SV','El Salvador','NA'),
-	 ('TC','Turks and Caicos Islands','NA'),
-	 ('TT','Trinidad and Tobago','NA'),
-	 ('US','United States','NA');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('VC','Saint Vincent and the Grenadines','NA'),
-	 ('VG','British Virgin Islands','NA'),
-	 ('VI','U.S. Virgin Islands','NA'),
-	 ('MF','Saint Martin','NA'),
-	 ('BL','Saint Barthélemy','NA'),
-	 ('SX','Sint Maarten','NA'),
-	 ('CW','Curaçao','NA'),
-	 ('AS','American Samoa','OC'),
-	 ('AU','Australia','OC'),
-	 ('CK','Cook Islands','OC');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('FJ','Fiji','OC'),
-	 ('FM','Micronesia','OC'),
-	 ('GU','Guam','OC'),
-	 ('KI','Kiribati','OC'),
-	 ('MH','Marshall Islands','OC'),
-	 ('MP','Northern Mariana Islands','OC'),
-	 ('NC','New Caledonia','OC'),
-	 ('NF','Norfolk Island','OC'),
-	 ('NR','Nauru','OC'),
-	 ('NU','Niue','OC');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('NZ','New Zealand','OC'),
-	 ('PF','French Polynesia','OC'),
-	 ('PG','Papua New Guinea','OC'),
-	 ('PN','Pitcairn','OC'),
-	 ('PW','Palau','OC'),
-	 ('SB','Solomon Islands','OC'),
-	 ('TK','Tokelau','OC'),
-	 ('TO','Tonga','OC'),
-	 ('TV','Tuvalu','OC'),
-	 ('UM','United States Minor Outlying Islands','OC');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('VU','Vanuatu','OC'),
-	 ('WF','Wallis and Futuna','OC'),
-	 ('WS','Samoa','OC'),
-	 ('AR','Argentina','SA'),
-	 ('BO','Bolivia','SA'),
-	 ('BR','Brazil','SA'),
-	 ('CL','Chile','SA'),
-	 ('CO','Colombia','SA'),
-	 ('EC','Ecuador','SA'),
-	 ('FK','Falkland Islands','SA');
-INSERT INTO countries (code,name,continent) VALUES
-	 ('GF','French Guiana','SA'),
-	 ('GY','Guyana','SA'),
-	 ('PE','Perú','SA'),
-	 ('PY','Paraguay','SA'),
-	 ('SR','Suriname','SA'),
-	 ('UY','Uruguay','SA'),
-	 ('VE','Venezuela','SA');
+INSERT INTO countries (code,name,continent) VALUES('AO','Angola','AF');  
+INSERT INTO countries (code,name,continent) VALUES('BF','Burkina Faso','AF');  
+INSERT INTO countries (code,name,continent) VALUES('BI','Burundi','AF');  
+INSERT INTO countries (code,name,continent) VALUES('BJ','Benin','AF');
+INSERT INTO countries (code,name,continent) VALUES('BW','Botswana','AF');  
+INSERT INTO countries (code,name,continent) VALUES('CD','Congo (Kinshasa)','AF');  
+INSERT INTO countries (code,name,continent) VALUES('CF','Central African Republic','AF');  
+INSERT INTO countries (code,name,continent) VALUES('CG','Congo (Brazzaville)','AF');  
+INSERT INTO countries (code,name,continent) VALUES('CI','Côte d''Ivoire','AF');  
+INSERT INTO countries (code,name,continent) VALUES('CM','Cameroon','AF');  
+INSERT INTO countries (code,name,continent) VALUES('CV','Cape Verde','AF');  
+INSERT INTO countries (code,name,continent) VALUES('DJ','Djibouti','AF');  
+INSERT INTO countries (code,name,continent) VALUES('DZ','Algeria','AF');  
+INSERT INTO countries (code,name,continent) VALUES('EG','Egypt','AF');  
+INSERT INTO countries (code,name,continent) VALUES('EH','Western Sahara','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ER','Eritrea','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ET','Ethiopia','AF');  
+INSERT INTO countries (code,name,continent) VALUES('GA','Gabon','AF');  
+INSERT INTO countries (code,name,continent) VALUES('GH','Ghana','AF');  
+INSERT INTO countries (code,name,continent) VALUES('GM','Gambia','AF');  
+INSERT INTO countries (code,name,continent) VALUES('GN','Guinea','AF');  
+INSERT INTO countries (code,name,continent) VALUES('GQ','Equatorial Guinea','AF');  
+INSERT INTO countries (code,name,continent) VALUES('GW','Guinea-Bissau','AF');  
+INSERT INTO countries (code,name,continent) VALUES('KE','Kenya','AF');  
+INSERT INTO countries (code,name,continent) VALUES('KM','Comoros','AF');  
+INSERT INTO countries (code,name,continent) VALUES('LR','Liberia','AF');  
+INSERT INTO countries (code,name,continent) VALUES('LS','Lesotho','AF');  
+INSERT INTO countries (code,name,continent) VALUES('LY','Libya','AF');  
+INSERT INTO countries (code,name,continent) VALUES('MA','Morocco','AF');  
+INSERT INTO countries (code,name,continent) VALUES('MG','Madagascar','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ML','Mali','AF');  
+INSERT INTO countries (code,name,continent) VALUES('MR','Mauritania','AF');  
+INSERT INTO countries (code,name,continent) VALUES('MU','Mauritius','AF');  
+INSERT INTO countries (code,name,continent) VALUES('MW','Malawi','AF');  
+INSERT INTO countries (code,name,continent) VALUES('MZ','Mozambique','AF');  
+INSERT INTO countries (code,name,continent) VALUES('NA','Namibia','AF');  
+INSERT INTO countries (code,name,continent) VALUES('NE','Niger','AF');  
+INSERT INTO countries (code,name,continent) VALUES('NG','Nigeria','AF');  
+INSERT INTO countries (code,name,continent) VALUES('RE','Réunion','AF');  
+INSERT INTO countries (code,name,continent) VALUES('RW','Rwanda','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SC','Seychelles','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SD','Sudan','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SH','Saint Helena','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SL','Sierra Leone','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SN','Senegal','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SO','Somalia','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ST','São Tomé and Principe','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SZ','Swaziland','AF');  
+INSERT INTO countries (code,name,continent) VALUES('TD','Chad','AF');  
+INSERT INTO countries (code,name,continent) VALUES('TG','Togo','AF');  
+INSERT INTO countries (code,name,continent) VALUES('TN','Tunisia','AF');  
+INSERT INTO countries (code,name,continent) VALUES('TZ','Tanzania','AF');  
+INSERT INTO countries (code,name,continent) VALUES('UG','Uganda','AF');  
+INSERT INTO countries (code,name,continent) VALUES('YT','Mayotte','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ZA','South Africa','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ZM','Zambia','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ZW','Zimbabwe','AF');  
+INSERT INTO countries (code,name,continent) VALUES('ZZ','Unknown or unassigned country','AF');  
+INSERT INTO countries (code,name,continent) VALUES('SS','South Sudan','AF');  
+INSERT INTO countries (code,name,continent) VALUES('AQ','Antarctica','AN');  
+INSERT INTO countries (code,name,continent) VALUES('GS','South Georgia and the South Sandwich Islands','AN');  
+INSERT INTO countries (code,name,continent) VALUES('TF','French Southern Territories','AN');  
+INSERT INTO countries (code,name,continent) VALUES('AE','United Arab Emirates','AS');  
+INSERT INTO countries (code,name,continent) VALUES('AF','Afghanistan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('AM','Armenia','AS');  
+INSERT INTO countries (code,name,continent) VALUES('AZ','Azerbaijan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('BD','Bangladesh','AS');  
+INSERT INTO countries (code,name,continent) VALUES('BH','Bahrain','AS');  
+INSERT INTO countries (code,name,continent) VALUES('BN','Brunei','AS');  
+INSERT INTO countries (code,name,continent) VALUES('BT','Bhutan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('CC','Cocos (Keeling) Islands','AS');  
+INSERT INTO countries (code,name,continent) VALUES('CN','China','AS');  
+INSERT INTO countries (code,name,continent) VALUES('CX','Christmas Island','AS');  
+INSERT INTO countries (code,name,continent) VALUES('CY','Cyprus','AS');  
+INSERT INTO countries (code,name,continent) VALUES('GE','Georgia','AS');  
+INSERT INTO countries (code,name,continent) VALUES('HK','Hong Kong','AS');  
+INSERT INTO countries (code,name,continent) VALUES('ID','Indonesia','AS');  
+INSERT INTO countries (code,name,continent) VALUES('IL','Israel','AS');  
+INSERT INTO countries (code,name,continent) VALUES('IN','India','AS');  
+INSERT INTO countries (code,name,continent) VALUES('IO','British Indian Ocean Territory','AS');  
+
+INSERT INTO countries (code,name,continent) VALUES('IQ','Iraq','AS');  
+INSERT INTO countries (code,name,continent) VALUES('IR','Iran','AS');  
+INSERT INTO countries (code,name,continent) VALUES('JO','Jordan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('JP','Japan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('KG','Kyrgyzstan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('KH','Cambodia','AS');  
+INSERT INTO countries (code,name,continent) VALUES('KP','North Korea','AS');  
+INSERT INTO countries (code,name,continent) VALUES('KR','South Korea','AS');  
+INSERT INTO countries (code,name,continent) VALUES('KW','Kuwait','AS');  
+INSERT INTO countries (code,name,continent) VALUES('KZ','Kazakhstan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('LA','Laos','AS');  
+INSERT INTO countries (code,name,continent) VALUES('LB','Lebanon','AS');  
+INSERT INTO countries (code,name,continent) VALUES('LK','Sri Lanka','AS');  
+INSERT INTO countries (code,name,continent) VALUES('MM','Burma','AS');  
+INSERT INTO countries (code,name,continent) VALUES('MN','Mongolia','AS');  
+INSERT INTO countries (code,name,continent) VALUES('MO','Macau','AS');  
+INSERT INTO countries (code,name,continent) VALUES('MV','Maldives','AS');  
+INSERT INTO countries (code,name,continent) VALUES('MY','Malaysia','AS');  
+INSERT INTO countries (code,name,continent) VALUES('NP','Nepal','AS');  
+INSERT INTO countries (code,name,continent) VALUES('OM','Oman','AS');  
+INSERT INTO countries (code,name,continent) VALUES('PH','Philippines','AS');  
+INSERT INTO countries (code,name,continent) VALUES('PK','Pakistan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('PS','Palestinian Territory','AS');  
+INSERT INTO countries (code,name,continent) VALUES('QA','Qatar','AS');  
+INSERT INTO countries (code,name,continent) VALUES('SA','Saudi Arabia','AS');  
+INSERT INTO countries (code,name,continent) VALUES('SG','Singapore','AS');  
+INSERT INTO countries (code,name,continent) VALUES('SY','Syria','AS');  
+INSERT INTO countries (code,name,continent) VALUES('TH','Thailand','AS');  
+INSERT INTO countries (code,name,continent) VALUES('TJ','Tajikistan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('TL','Timor-Leste','AS');  
+
+INSERT INTO countries (code,name,continent) VALUES('TM','Turkmenistan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('TR','Turkey','AS');  
+INSERT INTO countries (code,name,continent) VALUES('TW','Taiwan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('UZ','Uzbekistan','AS');  
+INSERT INTO countries (code,name,continent) VALUES('VN','Vietnam','AS');  
+INSERT INTO countries (code,name,continent) VALUES('YE','Yemen','AS');  
+INSERT INTO countries (code,name,continent) VALUES('AD','Andorra','EU');  
+INSERT INTO countries (code,name,continent) VALUES('AL','Albania','EU');  
+INSERT INTO countries (code,name,continent) VALUES('AT','Austria','EU');  
+INSERT INTO countries (code,name,continent) VALUES('BA','Bosnia and Herzegovina','EU');  
+INSERT INTO countries (code,name,continent) VALUES('BE','Belgium','EU');  
+INSERT INTO countries (code,name,continent) VALUES('BG','Bulgaria','EU');  
+INSERT INTO countries (code,name,continent) VALUES('BY','Belarus','EU');  
+INSERT INTO countries (code,name,continent) VALUES('CH','Switzerland','EU');  
+INSERT INTO countries (code,name,continent) VALUES('CZ','Czech Republic','EU');  
+INSERT INTO countries (code,name,continent) VALUES('DE','Germany','EU');  
+INSERT INTO countries (code,name,continent) VALUES('DK','Denmark','EU');  
+INSERT INTO countries (code,name,continent) VALUES('EE','Estonia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('ES','Spain','EU');  
+INSERT INTO countries (code,name,continent) VALUES('FI','Finland','EU');  
+INSERT INTO countries (code,name,continent) VALUES('FO','Faroe Islands','EU');  
+INSERT INTO countries (code,name,continent) VALUES('FR','France','EU');  
+INSERT INTO countries (code,name,continent) VALUES('GB','United Kingdom','EU');  
+INSERT INTO countries (code,name,continent) VALUES('GG','Guernsey','EU');  
+INSERT INTO countries (code,name,continent) VALUES('GI','Gibraltar','EU');  
+INSERT INTO countries (code,name,continent) VALUES('GR','Greece','EU');  
+INSERT INTO countries (code,name,continent) VALUES('HR','Croatia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('HU','Hungary','EU');  
+INSERT INTO countries (code,name,continent) VALUES('IE','Ireland','EU');  
+INSERT INTO countries (code,name,continent) VALUES('IM','Isle of Man','EU');  
+
+INSERT INTO countries (code,name,continent) VALUES('IS','Iceland','EU');  
+INSERT INTO countries (code,name,continent) VALUES('IT','Italy','EU');  
+INSERT INTO countries (code,name,continent) VALUES('JE','Jersey','EU');  
+INSERT INTO countries (code,name,continent) VALUES('LI','Liechtenstein','EU');  
+INSERT INTO countries (code,name,continent) VALUES('LT','Lithuania','EU');  
+INSERT INTO countries (code,name,continent) VALUES('LU','Luxembourg','EU');  
+INSERT INTO countries (code,name,continent) VALUES('LV','Latvia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('MC','Monaco','EU');  
+INSERT INTO countries (code,name,continent) VALUES('MD','Moldova','EU');  
+INSERT INTO countries (code,name,continent) VALUES('ME','Montenegro','EU');  
+INSERT INTO countries (code,name,continent) VALUES('MK','Macedonia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('MT','Malta','EU');  
+INSERT INTO countries (code,name,continent) VALUES('NL','Netherlands','EU');  
+INSERT INTO countries (code,name,continent) VALUES('NO','Norway','EU');  
+INSERT INTO countries (code,name,continent) VALUES('PL','Poland','EU');  
+INSERT INTO countries (code,name,continent) VALUES('PT','Portugal','EU');  
+INSERT INTO countries (code,name,continent) VALUES('RO','Romania','EU');  
+INSERT INTO countries (code,name,continent) VALUES('RS','Serbia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('RU','Russia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('SE','Sweden','EU');  
+INSERT INTO countries (code,name,continent) VALUES('SI','Slovenia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('SK','Slovakia','EU');  
+INSERT INTO countries (code,name,continent) VALUES('SM','San Marino','EU');  
+INSERT INTO countries (code,name,continent) VALUES('UA','Ukraine','EU');  
+INSERT INTO countries (code,name,continent) VALUES('XK','Kosovo','EU');  
+INSERT INTO countries (code,name,continent) VALUES('VA','Vatican City','EU');  
+INSERT INTO countries (code,name,continent) VALUES('AG','Antigua and Barbuda','NA');  
+INSERT INTO countries (code,name,continent) VALUES('AI','Anguilla','NA');  
+INSERT INTO countries (code,name,continent) VALUES('BQ','Caribbean Netherlands','NA');  
+INSERT INTO countries (code,name,continent) VALUES('AW','Aruba','NA');  
+INSERT INTO countries (code,name,continent) VALUES('BB','Barbados','NA');  
+INSERT INTO countries (code,name,continent) VALUES('BM','Bermuda','NA');  
+INSERT INTO countries (code,name,continent) VALUES('BS','Bahamas','NA');  
+INSERT INTO countries (code,name,continent) VALUES('BZ','Belize','NA');  
+INSERT INTO countries (code,name,continent) VALUES('CA','Canada','NA');  
+INSERT INTO countries (code,name,continent) VALUES('CR','Costa Rica','NA');  
+INSERT INTO countries (code,name,continent) VALUES('CU','Cuba','NA');  
+INSERT INTO countries (code,name,continent) VALUES('DM','Dominica','NA');  
+INSERT INTO countries (code,name,continent) VALUES('DO','Dominican Republic','NA');  
+INSERT INTO countries (code,name,continent) VALUES('GD','Grenada','NA');  
+INSERT INTO countries (code,name,continent) VALUES('GL','Greenland','NA');  
+INSERT INTO countries (code,name,continent) VALUES('GP','Guadeloupe','NA');  
+INSERT INTO countries (code,name,continent) VALUES('GT','Guatemala','NA');  
+INSERT INTO countries (code,name,continent) VALUES('HN','Honduras','NA');  
+INSERT INTO countries (code,name,continent) VALUES('HT','Haiti','NA');  
+INSERT INTO countries (code,name,continent) VALUES('JM','Jamaica','NA');  
+INSERT INTO countries (code,name,continent) VALUES('KN','Saint Kitts and Nevis','NA');  
+INSERT INTO countries (code,name,continent) VALUES('KY','Cayman Islands','NA');  
+INSERT INTO countries (code,name,continent) VALUES('LC','Saint Lucia','NA');  
+INSERT INTO countries (code,name,continent) VALUES('MQ','Martinique','NA');  
+INSERT INTO countries (code,name,continent) VALUES('MS','Montserrat','NA');  
+INSERT INTO countries (code,name,continent) VALUES('MX','Mexico','NA');  
+INSERT INTO countries (code,name,continent) VALUES('NI','Nicaragua','NA');  
+INSERT INTO countries (code,name,continent) VALUES('PA','Panama','NA');  
+INSERT INTO countries (code,name,continent) VALUES('PM','Saint Pierre and Miquelon','NA');  
+INSERT INTO countries (code,name,continent) VALUES('PR','Puerto Rico','NA');  
+INSERT INTO countries (code,name,continent) VALUES('SV','El Salvador','NA');  
+INSERT INTO countries (code,name,continent) VALUES('TC','Turks and Caicos Islands','NA');  
+INSERT INTO countries (code,name,continent) VALUES('TT','Trinidad and Tobago','NA');  
+INSERT INTO countries (code,name,continent) VALUES('US','United States','NA');  
+INSERT INTO countries (code,name,continent) VALUES('VC','Saint Vincent and the Grenadines','NA');  
+INSERT INTO countries (code,name,continent) VALUES('VG','British Virgin Islands','NA');  
+INSERT INTO countries (code,name,continent) VALUES('VI','U.S. Virgin Islands','NA');  
+INSERT INTO countries (code,name,continent) VALUES('MF','Saint Martin','NA');  
+INSERT INTO countries (code,name,continent) VALUES('BL','Saint Barthélemy','NA');  
+INSERT INTO countries (code,name,continent) VALUES('SX','Sint Maarten','NA');  
+INSERT INTO countries (code,name,continent) VALUES('CW','Curaçao','NA');  
+INSERT INTO countries (code,name,continent) VALUES('AS','American Samoa','OC');  
+INSERT INTO countries (code,name,continent) VALUES('AU','Australia','OC');  
+INSERT INTO countries (code,name,continent) VALUES('CK','Cook Islands','OC');  
+INSERT INTO countries (code,name,continent) VALUES('FJ','Fiji','OC');  
+INSERT INTO countries (code,name,continent) VALUES('FM','Micronesia','OC');  
+INSERT INTO countries (code,name,continent) VALUES('GU','Guam','OC');  
+INSERT INTO countries (code,name,continent) VALUES('KI','Kiribati','OC');  
+INSERT INTO countries (code,name,continent) VALUES('MH','Marshall Islands','OC');  
+INSERT INTO countries (code,name,continent) VALUES('MP','Northern Mariana Islands','OC');  
+INSERT INTO countries (code,name,continent) VALUES('NC','New Caledonia','OC');  
+INSERT INTO countries (code,name,continent) VALUES('NF','Norfolk Island','OC');  
+INSERT INTO countries (code,name,continent) VALUES('NR','Nauru','OC');  
+INSERT INTO countries (code,name,continent) VALUES('NU','Niue','OC');  
+INSERT INTO countries (code,name,continent) VALUES('NZ','New Zealand','OC');  
+INSERT INTO countries (code,name,continent) VALUES('PF','French Polynesia','OC');  
+INSERT INTO countries (code,name,continent) VALUES('PG','Papua New Guinea','OC');  
+INSERT INTO countries (code,name,continent) VALUES('PN','Pitcairn','OC');  
+INSERT INTO countries (code,name,continent) VALUES('PW','Palau','OC');  
+INSERT INTO countries (code,name,continent) VALUES('SB','Solomon Islands','OC');  
+INSERT INTO countries (code,name,continent) VALUES('TK','Tokelau','OC');  
+INSERT INTO countries (code,name,continent) VALUES('TO','Tonga','OC');  
+INSERT INTO countries (code,name,continent) VALUES('TV','Tuvalu','OC');  
+INSERT INTO countries (code,name,continent) VALUES('UM','United States Minor Outlying Islands','OC');  
+INSERT INTO countries (code,name,continent) VALUES('VU','Vanuatu','OC');  
+INSERT INTO countries (code,name,continent) VALUES('WF','Wallis and Futuna','OC');  
+INSERT INTO countries (code,name,continent) VALUES('WS','Samoa','OC');  
+INSERT INTO countries (code,name,continent) VALUES('AR','Argentina','SA');  
+INSERT INTO countries (code,name,continent) VALUES('BO','Bolivia','SA');  
+INSERT INTO countries (code,name,continent) VALUES('BR','Brazil','SA');  
+INSERT INTO countries (code,name,continent) VALUES('CL','Chile','SA');  
+INSERT INTO countries (code,name,continent) VALUES('CO','Colombia','SA');  
+INSERT INTO countries (code,name,continent) VALUES('EC','Ecuador','SA');  
+INSERT INTO countries (code,name,continent) VALUES('FK','Falkland Islands','SA');  
+INSERT INTO countries (code,name,continent) VALUES('GF','French Guiana','SA');  
+INSERT INTO countries (code,name,continent) VALUES('GY','Guyana','SA');  
+INSERT INTO countries (code,name,continent) VALUES('PE','Perú','SA');  
+INSERT INTO countries (code,name,continent) VALUES('PY','Paraguay','SA');  
+INSERT INTO countries (code,name,continent) VALUES('SR','Suriname','SA');  
+INSERT INTO countries (code,name,continent) VALUES('UY','Uruguay','SA');  
+INSERT INTO countries (code,name,continent) VALUES('VE','Venezuela','SA');  
